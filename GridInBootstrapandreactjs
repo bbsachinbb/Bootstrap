@@ -1,0 +1,22 @@
+import React from 'react';
+import './App.css';
+import Navbar from './components/Navbar';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+function App() {
+  return (
+    <div className="app">
+     
+     <div className="container mycontainer">
+ 
+  <div className="row myrow">
+    <div className="col-md-4 col-sm-6 mycol"  >.col 1</div>
+    <div className="col-md-8 col-sm-6 mycol" >.col 2</div>
+  </div>
+  <div className="row justify-content-between align-items-strech myrow">
+    <div className="col-4 offset-2 mycol order-md-12 "  >.col 1</div>
+    <div className="col-4 align-self-start mycol order-md-2" >.col 2</div>
+  </div>
+</div>
+     
+     </div>
